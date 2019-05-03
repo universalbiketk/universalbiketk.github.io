@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<!-- KOMETA GQ [http://kometa.gq] 29.11.2017 (29.04.2019) -->
+<!-- KOMETA GQ [http://kometa.gq] 29.11.2017 (03.05.2019) -->
 <meta charset="utf-8">
 <meta name="author" content="KOMETA GQ : kometa.gq">
 <meta name="description" content="Велосипеды UNIVERSAL">
@@ -12,21 +12,25 @@
 @font-face {font-family: fi; src: url(fi.eot?) format(eot), url(fi.woff) format(woff), url(fi.ttf) format(truetype), url(fi.svg) format(svg);}
 @font-face {font-family: flm; src: url(flm.eot?) format(eot), url(flm.woff) format(woff), url(flm.ttf) format(truetype), url(flm.svg) format(svg);}
 html {height: 100%; font-size: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
-body {margin: 0; height: 100%; background: rgb(255,255,255) /*url(about:blank)*/ url(bg.jpg) center fixed; font: normal normal normal 16px 'fh', sans-serif; color: rgb(0,0,0); text-align: center;}
+body {margin: 0; height: 100%; background: rgb(255,255,255) /*url(about:blank)*/ url(bg.jpg) center fixed; font: normal normal normal 16px fh, sans-serif; color: rgb(0,0,0); text-align: center;}
 @media (min-width: 600px) {body {font-size: 20px;}}
-button, form, input, select, textarea {margin: 0; font-size: 100%; text-transform: none; font: normal normal normal 16px fh, sans-serif;}
+button, form, input, select, textarea {margin: 0; font-size: 100%; text-transform: none; font: normal normal normal 16px f, sans-serif;}
 @media (min-width: 600px) {button, form, input, select, textarea {font-size: 20px;}}
 a {color: rgb(0,0,255); text-decoration: none; background-color: transparent; -webkit-text-decoration-skip: objects;}
 a:hover {text-decoration: underline;}
 span {font-weight: normal; display: inline-block; vertical-align: top; text-align: left;}
-#h {width: 100%; background: url(h.jpg) center; background-size: auto 100%;}
-#h .l, #h .r {width: 100%; height: 0; padding-bottom: 100%; text-align: center;}
+#h {width: 100%; background: url(h+.jpg) center; background-size: auto 100%;}
+#h .s {position: absolute; width: 100%; height: 100%; background: rgba(0,0,0,0.31); /*background: url(grid.png);*/}
+#h .l, #h .r {position: relative; width: 100%; height: 0; padding-bottom: 100%; text-align: center;}
 #h .l {text-align: left;}
 @media (min-width: 600px) {#h {background-size: 100% auto;} #h .l, #h .r {width: 50%; padding-bottom: 50%;}}
-#h .l .h {margin: 38% 10%; color: rgba(255,255,0,0.8); font-size: 3.3em; letter-spacing: 0.05em; text-align: center;}
+#h .l .h {margin: 38% 10%; color: rgba(255,255,0,0.8); font-size: 2.5em; letter-spacing: 0.05em; text-align: center;}
 @media (min-width: 600px) {#h .l .h {margin: 23% 10%;}}
-#h .r .h {line-height: 100px; padding: 0 1em; background: rgba(255,255,0,0.8); font-size: 2em;}
-@media (min-width: 600px) {#h .r .h {margin-top: 52%;}}
+
+#h .r .b {font-size: 0.8em; color: rgba(255,255,0,0.8);}
+@media (min-width: 600px) {#h .r .b {margin-top: 52%;}}
+#h .r .h {margin-top: -153%; line-height: 100px; padding: 0 1em; background: rgba(255,255,0,0.8); font-size: 2em;}
+@media (min-width: 600px) {#h .r .h {margin-top: -69%;}}
 
 #q1, #q2, #q3, #q4 {width: 100%; _width: 50%; height: 0; padding-bottom: 100%; _padding-bottom: 0%; text-align: center;}
 @media (min-width: 600px) {#q1, #q2, #q3, #q4 {width: 50%; padding-bottom: 50%;}}
@@ -52,8 +56,10 @@ span {font-weight: normal; display: inline-block; vertical-align: top; text-alig
 
 #t {position: absolute; left: 0; top: 0; width: 100%; text-align: center;}
 @media (min-width: 600px) {#t {text-align: left;}}
-#t .l {margin-top: 15%; font-size: 1.5em; font-family: fl, sans-serif; color: rgb(255,255,255); padding-bottom: 0.25em; border-bottom: 2px solid rgba(255,255,0,0.8);}
-@media (min-width: 600px) {#t .l {margin: 5% 5% 0 5%;}}
+#t .bl {margin-top: 15%; color: rgb(255,255,255); padding-bottom: 0.5em; border-bottom: 2px solid rgba(255,255,0,0.8); text-align: center;}
+@media (min-width: 600px) {#t .bl {margin: 5% 5% 0 5%;}}
+#t .bl .b {font-size: 0.5em; font-family: fh, sans-serif; letter-spacing: 1em; margin-right: -1em;}
+#t .bl .l {margin-top: -0.5em; font-size: 1.5em; font-family: fl, sans-serif;}
 
 .i {font-family: fi, sans-serif;}
 .eoff, .eon {}
@@ -79,16 +85,15 @@ span {font-weight: normal; display: inline-block; vertical-align: top; text-alig
 form {display: inline-block;}
 input, button {padding: 0.2em 0.4em; margin-bottom: 0.5em;}
 button {margin-top: 0.5em; width: 100%; border: 1px solid rgb(0,180,128); background: rgb(0,180,128); color: rgb(255,255,255);}
+#g {width: 90%; padding: 8% 5%; text-align: center; font-size: 1.5em;}
+#gm {width: 100%; height: 80%; background: rgb(240,240,240);}
+
 </style>
-
-
-    <link rel="stylesheet" href="animate.min.css">
-
 
 <script>function d(id){var d=document.getElementById(id);d.style.display=(d.style.display=='')?'none':'';}</script>
 <script>function e(e){e.className=(e.className=='eon')?'eoff':'eon';}</script>
 
-<span id="h"><span class="l"><span class="h">техника колёс</span></span><span class="r"><span class="vm"></span><span class="h"><big>&nbsp;6 999 </big><small>руб.</small></span></span></span>
+<span id="h"><span class="s"></span><span class="l"><span class="h">техника колёс</span></span><span class="r"><span class="vm"></span><span class="b">ВЕЛОСИПЕД <strong>ROADMASTER 2801</strong></span><br><span class="h"><big>&nbsp;<strong>6 999 </strong></big><small>руб.</small></span></span></span>
 
 <span id="q1"><span class="vm"></span><span class="h">
 Колёса 28 дюймов (71 см)<br>
@@ -136,58 +141,24 @@ button {margin-top: 0.5em; width: 100%; border: 1px solid rgb(0,180,128); backgr
 
 <span id="s">
 Велосипеды новой марки UNIVERSAL - это надёжная и недорогая колёсная техника.
-</span>
+</span><br>
+<span id="g">
+Адрес: Нижегородская обл., г.&nbsp;Балахна, ул.&nbsp;Горького, д.&nbsp;28<br>
+Магазин "УНИВЕРСАЛ"<br>
+<br>
+Часы работы: 09:00&nbsp;-&nbsp;19:00 ежедневно<br>
+<br>
+Тел.: +7 900 000 00 00<br>
+e-mail: universalbike@yandex.ru
+</span><br>
+<span id="gm"></span><br>
 
 <span id="w"><small>
-&copy; 2017 universalbike.tk<br>Велосипеды UNIVERSAL&nbsp;&nbsp;. техника колёс<br><small><span class="m">дизайн&nbsp;:&nbsp;<a href="http://kometa.gq">КОМЕТА</a></span></small>
+&copy; 2017-2019 universalbike.tk<br>Велосипеды UNIVERSAL&nbsp;&nbsp;. техника колёс<br><small><span class="m">дизайн&nbsp;:&nbsp;<a href="http://kometa.gq">КОМЕТА</a></span></small>
 </small></span>
 
-<span id="t"><span class="l">UNIVERSALbike</span></span>
 
+<span id="t"><span class="bl"><span class="b">ВЕЛОСИПЕДЫ</span><br><span class="l">UNIVERSAL</span></span></span>
 
-<script type="text/javascript" src="jquery.min.js"></script>
-<script type="text/javascript" src="countdown.js"></script>
-<script type="text/javascript" src="jquery.knob.js"></script>
-
-<script type="text/javascript">
-( function ( $ ) {
-	"use strict";
-		$(document).ready(function(){
-
-			$("#countdown").countdown({
-				date: "20 march 2020 08:00:00",
-				format: "on"
-			},
-
-			function() {
-				// callback function
-			});
-
-
-		jQuery('.styleswitcher a.closer2').click(function(){
-				jQuery('a.closer3').fadeIn(100);
-				jQuery('a.closer2').fadeOut(100);
-				jQuery('.styleswitcher').animate({'left' : '100px'});
-				return false;
-			});
-
-			jQuery('.styleswitcher a.closer3').click(function(){
-				jQuery('a.closer2').fadeIn(100);
-				jQuery('a.closer3').fadeOut(100);
-				jQuery('.styleswitcher').animate({'left' : '0'});
-				return false;
-			});
-
-			jQuery(".styleswitcher ul li a").click(function() {
-				var style = jQuery(this).attr('rel');
-				jQuery('body').removeClass();
-				jQuery('body').addClass(style);
-				return false;
-			});
-		});
-		} ( jQuery ) );
-        </script>
-
-<script type="text/javascript" src="knob.js"></script>
-	    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    
+<script src="https://maps.googleapis.com/maps/api/js?language=ru&region=RU&key=AIzaSyA1a_yhBUtBGHV59qtWO2VyjjdC8qwmQZQ"></script>
+<script>function initMap(){var uluru={lat:56.5218,lng:43.55025};var map=new google.maps.Map(document.getElementById('gm'),{zoom:16,center:uluru});var marker=new google.maps.Marker({position:uluru,map:map,title:'Велосипеды UNIVERSAL'});}google.maps.event.addDomListener(window,'load',initMap);</script>

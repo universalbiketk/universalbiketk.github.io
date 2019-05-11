@@ -5,7 +5,7 @@
 @font-face {font-family: fl; src: url(fl.eot?) format(eot), url(fl.woff) format(woff), url(fl.ttf) format(truetype), url(fl.svg) format(svg);}
 @font-face {font-family: flm; src: url(flm.eot?) format(eot), url(flm.woff) format(woff), url(flm.ttf) format(truetype), url(flm.svg) format(svg);}
 html {height: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
-body {margin: 0; height: 100%; background: rgb(252,252,252) url(about:blank); font: normal normal normal 12px fh, sans-serif; color: rgb(0,0,0); text-align: center;}
+body {margin: 0; height: 100%; background: rgb(252,252,252) url(about:blank); font: normal normal normal 12px f, sans-serif; color: rgb(0,0,0); text-align: center;}
 @media (min-width: 600px) {body {font-size: 18px;}}
 button, form, input, select, textarea {margin: 0; font-size: 100%; text-transform: none;}
 a {color: rgb(0,0,252); text-decoration: none; background-color: transparent; -webkit-text-decoration-skip: objects;}
@@ -41,7 +41,7 @@ strong {font-weight: bolder;}
 #pr {width: 90%; padding: 9% 5%; background: rgb(240,240,240); text-align: left;}
 /*@media (min-width: 600px) {#pr {font-size: 24px;}}*/
 #g {width: 90%; padding: 9% 5%; background: rgb(240,252,240);}
-@media (min-width: 600px) {#g {font-size: 24px;}}
+@media (min-width: 600px) {#g {}}
 #ym {width: 100%; height: 75%; _display: none;}
 @media (min-width: 600px) {#ym {height: 100%;}}
 #w {width: 90%; padding: 3.5em 5%; background: gainsboro}
@@ -51,21 +51,23 @@ strong {font-weight: bolder;}
 #w .m a {display: inline-block; font-family: flm, sans-serif; color: rgb(0,131,252);}
 #w .m a:hover {text-decoration: none; padding-bottom: 0; border-bottom: 2px solid rgb(0,131,252);}
 
-#q1c, #q2c, #q3c {position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(131,131,131,0.67); font-size: 12px;}
-@media (min-width: 600px) {#q1c, #q2c, #q3c, #q4c {font-size: 18px;}}
-#q1c .h, #q2c .h, #q3c .h, #q4c .h {position: fixed; left: 2.5%; top: 5%; width: 95%; height: 10%; line-height: 60px; background: rgb(252,245,231); font-size: 45px;}
-#q1c .h .x, #q2c .h .x, #q3c .h .x, #q4c .h .x {position: absolute; top: 0; right: 0; background: rgb(231,231,231);}
+#q1c, #q2c, #q3c {position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(131,131,131,0.67);}
+@media (min-width: 600px) {#q1c, #q2c, #q3c, #q4c {}}
+#q1c .h, #q2c .h, #q3c .h, #q4c .h {position: fixed; left: 2.5%; top: 5%; width: 95%; height: 10%; line-height: 60px; background: rgb(252,245,231);}
+@media (min-width: 600px) {#q1c .h, #q2c .h, #q3c .h, #q4c .h {font-size: 3em;}}
+#q1c .h .x, #q2c .h .x, #q3c .h .x, #q4c .h .x {position: absolute; top: 0; right: 0; background: rgb(231,231,231); font: 1.25em/60px fh, sans-serif;}
 #q1c .h .x .t, #q2c .h .x .t, #q3c .h .x .t, #q4c .h .x .t {display: none;}
-@media (min-width: 600px) {#q1c .h .x .t, #q2c .h .x .t, #q3c .h .x .t, #q4c .h .x .t {display: inline-block; font-size: 12px; vertical-align: middle;}}
+@media (min-width: 600px) {#q1c .h .x .t, #q2c .h .x .t, #q3c .h .x .t, #q4c .h .x .t {display: inline-block; font-size: 0.25em;}}
 #q1c .h .x:hover, #q2c .h .x:hover, #q3c .h .x:hover, #q4c .h .x:hover {background: rgb(240,240,240);}
 #q1c .c, #q2c .c, #q3c .c, #q4c .c {position: fixed; left: 2.5%; top: 15%; width: 90%; height: 70%; overflow-y: auto; background: rgb(252,252,252); padding: 2.5%;}
 table {border-collapse: collapse; border-spacing: 0; margin: auto; border-top: 1px solid rgb(231,231,231);}
-td {padding: 0.5em; border-bottom: 1px solid rgb(231,231,231); text-align: left; vertical-align: top; font-size: 1.5em;}
+td {padding: 0.5em; border-bottom: 1px solid rgb(231,231,231); text-align: left; vertical-align: top;}
 td.d {padding-right: 1em;}
 td.p {text-align: right;}
-#q1c .c .blu, #q1c .c .bei {width: 50%;}
+#q1c .c .blu, #q1c .c .bei {width: 100%;}
+@media (min-width: 600px) {#q1c .c .blu, #q1c .c .bei {width: 50%;}}
 #q1c .c .blu img, #q1c .c .bei img {display: inline-block; vertical-align: top; width: 100%;}
-#q1c .c .rm {margin: 5% 0; width: 100%; font: 28px fl, sans-serif;}
+#q1c .c .rm {margin: 5% 0; width: 100%; font: 1.67em fl, sans-serif;}
 
 
 

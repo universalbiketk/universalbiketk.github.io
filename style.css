@@ -14,15 +14,17 @@ span {display: inline-block; vertical-align: top; text-align: center;}
 strong {font-weight: bolder;}
 
 #h {width: 100%; height: 100%; background: rgb(131,131,131) url(h.jpg) no-repeat center top; background-size: auto 100%; font-family: fh, sans-serif; position: relative;}
+#h .g {width: 100%; height: 100%; background: url(grid.png);}
 @media (min-width: 600px) {#h {background-size: 100% auto;}}
 @media (orientation: portrait) {#h {background-size: auto 100%;}}
+@media (min-width: 1400px) {#h {background-image: url(h+.jpg);}}
 #h .l {position: absolute; left: 5%; top: 9%; width: 90%;}
 @media (min-width: 600px) {#h .l {text-align: left;}}
 #h .l .d {font-size: 0.83em; letter-spacing: 0.67em; margin-right: -0.6em; _margin-right: -1px; color: rgb(252,252,252);}
 #h .l .u {margin-top: 0.4em; font: 1.75em fl, sans-serif; color: rgb(252,252,252); padding-bottom: 0.75em; border-bottom: 2px solid rgb(252,131,0);}
 #h .p {position: absolute; left: 5%; bottom: 19%; width: 90%;}
 @media (min-width: 600px) {#h .p {bottom: 14%; text-align: right;}}
-#h .p .hi {display: inline-block; vertical-align: top; width: 6em;}
+#h .p .hi {display: inline-block; vertical-align: top; width: 6em; margin-right: 0.31em;}
 #h .p .d {margin-top: 2.5em; font-size: 0.5em; color: rgb(252,252,252); vertical-align: baseline; letter-spacing: 1px;}
 #h .p .d .m {font: 1em fl, sans-serif; color: rgb(252,252,252); vertical-align: baseline;}
 #h .p .r {margin-top: 0.4em; background: rgb(252,252,31); background: rgba(252,252,0,0.75); padding: 0.33em 0.75em 0.4em 0.83em; font-size: 2.25em;}

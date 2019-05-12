@@ -34,10 +34,17 @@ strong {font-weight: bolder;}
 #q3 {background: rgb(231,231,252) url(q3.png) no-repeat center; background-size: auto 90%;}
 #q4 {background: rgb(200,252,200) url(q4.png) no-repeat center; background-size: auto 90%;}
 #q1 .vm, #q2 .vm, #q3 .vm, #q4 .vm {padding-top: 100%; vertical-align: middle;}
-#q1 .h, #q2 .h, #q3 .h, #q4 .h {vertical-align: middle; font-size: 2.5em; letter-spacing: 1px;}
-@media (min-width: 600px) {#q1 .h, #q2 .h, #q3 .h, #q4 .h {font-size: 3em; letter-spacing: 2px;}}
+#q1 .h, #q2 .h, #q3 .h {vertical-align: middle; font-size: 2.5em; letter-spacing: 1px;}
+@media (min-width: 600px) {#q1 .h, #q2 .h, #q3 .h {font-size: 3em; letter-spacing: 2px;}}
 .h .b {margin-top: 1em; padding: 1em 2em; font-size: 0.375em; letter-spacing: 1px; background: rgb(252,131,0); color: rgb(252,252,252); border-radius: 3px;}
 .h .b:hover {background: rgb(252,148,0);}
+
+#q4 .f {vertical-align: middle;}
+#q4 .f .h {font-size: 1.5em;}
+#q4 .f .d {font-size: 0.83em; margin: 1em 0; padding: 0.5em; background: lightyellow}
+form {display: inline-block;}
+input {padding: 0.2em 0.4em; margin-bottom: 0.5em;}
+button {margin: 0.25em 0 0.5em 0; padding: 1em 0; width: 100%; border: 1px solid rgb(0,200,131); background: rgb(0,200,131); color: rgb(252,252,252); border-radius: 3px; cursor: pointer;}
 
 #pr {width: 90%; padding: 9% 5%; background: rgb(240,240,240); text-align: left;}
 #g {width: 90%; padding: 9% 5%; background: rgb(240,252,240);}

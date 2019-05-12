@@ -68,7 +68,7 @@ button {margin: 0.25em 0 0.5em 0; padding: 1em 0; width: 100%; border: 1px solid
 #q1c .h .x:hover, #q2c .h .x:hover, #q3c .h .x:hover, #q4c .h .x:hover {background: rgb(240,240,240);}
 #q1c .c, #q2c .c, #q3c .c, #q4c .c {position: fixed; left: 2.5%; top: 11.25%; bottom: 1.25%; width: 90%; _height: 90%; overflow-y: auto; background: rgb(252,252,252); padding: 2.5%;}
 @media (min-width: 600px) {#q1c .c, #q2c .c, #q3c .c, #q4c .c {top: 15%; bottom: 5%;}}
-table {border-collapse: collapse; border-spacing: 0; margin: auto; /*border-top: 1px solid rgb(231,231,231);*/}
+table {border-collapse: collapse; border-spacing: 0; margin: auto;}
 td {padding: 0.25em 0; border-bottom: 1px solid rgb(231,231,231); text-align: left; vertical-align: top;}
 td.th {border-bottom: 1px solid rgb(200,200,200);}
 td.ht {font-size: 1.5em;}

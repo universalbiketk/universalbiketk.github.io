@@ -20,9 +20,10 @@ strong {font-weight: bolder;}
 @media (min-width: 600px) {#h .l {text-align: left;}}
 #h .l .d {font-size: 0.83em; letter-spacing: 0.67em; margin-right: -0.6em; _margin-right: -1px; color: rgb(252,252,252);}
 #h .l .u {margin-top: 0.4em; font: 1.75em fl, sans-serif; color: rgb(252,252,252); padding-bottom: 0.75em; border-bottom: 2px solid rgb(252,131,0);}
-#h .p {position: absolute; left: 5%; bottom: 14%; width: 90%;}
-@media (min-width: 600px) {#h .p {text-align: right;}}
-#h .p .d {font-size: 0.5em; color: rgb(252,252,252); vertical-align: baseline; letter-spacing: 1px;}
+#h .p {position: absolute; left: 5%; bottom: 19%; width: 90%;}
+@media (min-width: 600px) {#h .p {bottom: 14%; text-align: right;}}
+#h .p .hi {display: inline-block; vertical-align: top; width: 6em;}
+#h .p .d {margin-top: 2.5em; font-size: 0.5em; color: rgb(252,252,252); vertical-align: baseline; letter-spacing: 1px;}
 #h .p .d .m {font: 1em fl, sans-serif; color: rgb(252,252,252); vertical-align: baseline;}
 #h .p .r {margin-top: 0.4em; background: rgb(252,252,31); background: rgba(252,252,0,0.75); padding: 0.33em 0.75em 0.4em 0.83em; font-size: 2.25em;}
 
@@ -40,7 +41,7 @@ strong {font-weight: bolder;}
 
 #pr {width: 90%; padding: 9% 5%; background: rgb(240,240,240); text-align: left;}
 #g {width: 90%; padding: 9% 5%; background: rgb(240,252,240);}
-#ym {width: 100%; height: 75%; background: rgb(240,252,240); _display: none;}
+#ym {width: 100%; height: 56.25%; background: rgb(240,252,240); _display: none;}
 @media (min-width: 600px) {#ym {height: 100%;}}
 #w {width: 90%; padding: 3.5em 5%; background: gainsboro}
 #w .m {margin-top: 2em;}
@@ -50,14 +51,15 @@ strong {font-weight: bolder;}
 #w .m a:hover {text-decoration: none; padding-bottom: 0; border-bottom: 2px solid rgb(0,131,252);}
 
 #q1c, #q2c, #q3c {position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(131,131,131,0.67);}
-#q1c .h, #q2c .h, #q3c .h, #q4c .h {position: fixed; left: 2.5%; top: 5%; width: 75%; padding: 0 10%; height: 10%; line-height: 40px; background: rgb(252,245,231); font-size: 1.5em;}
-@media (min-width: 600px) {#q1c .h, #q2c .h, #q3c .h, #q4c .h {font-size: 2em; line-height: 60px;}}
-#q1c .h .x, #q2c .h .x, #q3c .h .x, #q4c .h .x {position: absolute; top: 0; right: 0; background: rgb(231,231,231); font-family: fh, sans-serif; width: 40px;}
+#q1c .h, #q2c .h, #q3c .h, #q4c .h {position: fixed; left: 2.5%; top: 1.25%; width: 75%; padding: 0 10%; height: 10%; line-height: 40px; background: rgb(252,245,231); font-size: 1.4em;}
+@media (min-width: 600px) {#q1c .h, #q2c .h, #q3c .h, #q4c .h {top: 5%; font-size: 2em; line-height: 60px;}}
+#q1c .h .x, #q2c .h .x, #q3c .h .x, #q4c .h .x {position: absolute; top: 0; right: 0; background: rgb(231,231,231); font-family: fh, sans-serif; width: 40px; font-size: 1.4em;}
 @media (min-width: 600px) {#q1c .h .x, #q2c .h .x, #q3c .h .x, #q4c .h .x {width: auto;}}
 #q1c .h .x .t, #q2c .h .x .t, #q3c .h .x .t, #q4c .h .x .t {display: none;}
 @media (min-width: 600px) {#q1c .h .x .t, #q2c .h .x .t, #q3c .h .x .t, #q4c .h .x .t {display: inline-block; font-size: 0.25em;}}
 #q1c .h .x:hover, #q2c .h .x:hover, #q3c .h .x:hover, #q4c .h .x:hover {background: rgb(240,240,240);}
-#q1c .c, #q2c .c, #q3c .c, #q4c .c {position: fixed; left: 2.5%; top: 15%; width: 90%; height: 70%; overflow-y: auto; background: rgb(252,252,252); padding: 2.5%;}
+#q1c .c, #q2c .c, #q3c .c, #q4c .c {position: fixed; left: 2.5%; top: 11.25%; bottom: 1.25%; width: 90%; _height: 90%; overflow-y: auto; background: rgb(252,252,252); padding: 2.5%;}
+@media (min-width: 600px) {#q1c .c, #q2c .c, #q3c .c, #q4c .c {top: 15%; bottom: 5%;}}
 table {border-collapse: collapse; border-spacing: 0; margin: auto; border-top: 1px solid rgb(231,231,231);}
 td {padding: 0.25em 0; border-bottom: 1px solid rgb(231,231,231); text-align: left; vertical-align: top;}
 td.ht {font-size: 1.5em;}
@@ -68,7 +70,7 @@ td.v, td.p {text-align: right;}
 #q1c .c .blu img, #q1c .c .bei img {display: inline-block; vertical-align: top; width: 100%;}
 #q1c .c .rm {margin: 5% 0; width: 100%; font: 1.45em fl, sans-serif;}
 @media (min-width: 600px) {#q1c .c .rm {font-size: 1.67em;}}
-#q1c .c .r {margin-top: 0.4em; background: rgb(252,252,131); background: rgba(252,252,0,0.5); padding: 0.33em 0.75em 0.4em 0.83em; font-size: 1.75em;}
+#q1c .c .r {margin: 0.4em 0 1.4em 0; background: rgb(252,252,131); background: rgba(252,252,0,0.5); padding: 0.33em 0.75em 0.4em 0.83em; font-size: 1.75em;}
 
 
 

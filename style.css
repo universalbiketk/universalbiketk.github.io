@@ -14,7 +14,6 @@ span {display: inline-block; vertical-align: top; text-align: center;}
 strong {font-weight: bolder;}
 
 #h {width: 100%; height: 100%; background: rgb(131,131,131) url(h.jpg) no-repeat center top; background-size: auto 100%; font-family: fh, sans-serif; position: relative;}
-#h .g {width: 100%; height: 100%; background: url(grid.png);}
 @media (min-width: 600px) {#h {background-size: 100% auto;}}
 @media (orientation: portrait) {#h {background-size: auto 100%;}}
 @media (min-width: 1400px) {#h {background-image: url(h+.jpg);}}

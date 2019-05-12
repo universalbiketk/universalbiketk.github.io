@@ -67,8 +67,9 @@ button {margin: 0.25em 0 0.5em 0; padding: 1em 0; width: 100%; border: 1px solid
 #q1c .h .x:hover, #q2c .h .x:hover, #q3c .h .x:hover, #q4c .h .x:hover {background: rgb(240,240,240);}
 #q1c .c, #q2c .c, #q3c .c, #q4c .c {position: fixed; left: 2.5%; top: 11.25%; bottom: 1.25%; width: 90%; _height: 90%; overflow-y: auto; background: rgb(252,252,252); padding: 2.5%;}
 @media (min-width: 600px) {#q1c .c, #q2c .c, #q3c .c, #q4c .c {top: 15%; bottom: 5%;}}
-table {border-collapse: collapse; border-spacing: 0; margin: auto; border-top: 1px solid rgb(231,231,231);}
+table {border-collapse: collapse; border-spacing: 0; margin: auto; /*border-top: 1px solid rgb(231,231,231);*/}
 td {padding: 0.25em 0; border-bottom: 1px solid rgb(231,231,231); text-align: left; vertical-align: top;}
+td.th {border-bottom: 1px solid rgb(200,200,200);}
 td.ht {font-size: 1.5em;}
 td.d {padding-right: 1em;}
 td.v, td.p {text-align: right;}
@@ -77,7 +78,7 @@ td.v, td.p {text-align: right;}
 #q1c .c .blu img, #q1c .c .bei img {display: inline-block; vertical-align: top; width: 100%;}
 #q1c .c .rm {margin: 5% 0; width: 100%; font: 1.45em fl, sans-serif;}
 @media (min-width: 600px) {#q1c .c .rm {font-size: 1.67em;}}
-#q1c .c .r {margin: 0.4em 0 1.4em 0; background: rgb(252,252,131); background: rgba(252,252,0,0.5); padding: 0.33em 0.75em 0.4em 0.83em; font-size: 1.75em;}
+#q1c .c .r {margin: 0.4em 0 1.4em 0; background: rgb(252,252,131); padding: 0.33em 0.75em 0.4em 0.83em; font-size: 1.75em;}
 
 
 

@@ -5,7 +5,7 @@
 @font-face {font-family: fl; src: url(fl.eot?) format(eot), url(fl.woff) format(woff), url(fl.ttf) format(truetype), url(fl.svg) format(svg);}
 @font-face {font-family: flm; src: url(flm.eot?) format(eot), url(flm.woff) format(woff), url(flm.ttf) format(truetype), url(flm.svg) format(svg);}
 html {height: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
-body {margin: 0; height: 100%; background: rgb(252,252,252) url(about:blank); font: normal normal normal 15px f, sans-serif; color: rgb(0,0,0); text-align: center;}
+body {margin: 0; height: 100%; background: rgb(252,252,252) url(about:blank); font: 15px f, sans-serif; color: rgb(0,0,0); text-align: center;}
 @media (min-width: 600px) {body {font-size: 18px;}}
 button, form, input, select, textarea {margin: 0; font-size: 100%; text-transform: none;}
 a {color: rgb(0,0,252); text-decoration: none; background-color: transparent; -webkit-text-decoration-skip: objects;}

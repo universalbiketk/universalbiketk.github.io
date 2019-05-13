@@ -42,7 +42,7 @@ strong {font-weight: bolder;}
 
 #q4 .f {vertical-align: middle;}
 #q4 .f .h {font-size: 1.5em;}
-#q4 .f .d {font-size: 0.83em; margin: 1em 0; padding: 0.5em; background: lightyellow}
+#q4 .f .d {font-size: 0.9em; margin: 1em 0; padding: 0.5em; background: lightyellow}
 form {display: inline-block;}
 input {padding: 0.2em 0.4em; margin-bottom: 0.5em;}
 button {margin: 0.25em 0 0.5em 0; padding: 1em 0; width: 100%; border: 1px solid rgb(0,200,131); background: rgb(0,200,131); color: rgb(252,252,252); border-radius: 3px; cursor: pointer;}
@@ -58,16 +58,16 @@ button {margin: 0.25em 0 0.5em 0; padding: 1em 0; width: 100%; border: 1px solid
 #w .m a {display: inline-block; font: 1.07142857em flm, sans-serif; color: rgb(0,131,252);}
 #w .m a:hover {text-decoration: none; padding-bottom: 0; border-bottom: 2px solid rgb(0,131,252);}
 
-#q1c, #q2c, #q3c {position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(131,131,131,0.67);}
-#q1c .h, #q2c .h, #q3c .h, #q4c .h {position: fixed; left: 2.5%; top: 1.25%; width: 75%; padding: 0 10%; height: 10%; line-height: 40px; background: rgb(252,245,231); font-size: 1.4em;}
-@media (min-width: 600px) {#q1c .h, #q2c .h, #q3c .h, #q4c .h {top: 5%; font-size: 2em; line-height: 60px;}}
-#q1c .h .x, #q2c .h .x, #q3c .h .x, #q4c .h .x {position: absolute; top: 0; right: 0; background: rgb(231,231,231); font-family: fh, sans-serif; width: 40px; font-size: 1.4em;}
-@media (min-width: 600px) {#q1c .h .x, #q2c .h .x, #q3c .h .x, #q4c .h .x {width: auto;}}
-#q1c .h .x .t, #q2c .h .x .t, #q3c .h .x .t, #q4c .h .x .t {display: none;}
-@media (min-width: 600px) {#q1c .h .x .t, #q2c .h .x .t, #q3c .h .x .t, #q4c .h .x .t {display: inline-block; font-size: 0.25em;}}
+#q1c, #q2c, #q3c {position: fixed; _position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(131,131,131,0.67);}
+#q1c .h, #q2c .h, #q3c .h, #q4c .h {position: absolute; left: 2.5%; top: 0.57142857em; width: 75%; padding: 0 10%; line-height: 1.904em; background: rgb(252,245,231); font-size: 1.4em;}
+@media (min-width: 600px) {#q1c .h, #q2c .h, #q3c .h, #q4c .h {top: 0.5em; line-height: 2em; font-size: 2em;}}
+#q1c .x, #q2c .x, #q3c .x, #q4c .x {position: absolute; top: 0.57142857em; right: 2.5%; background: rgb(231,231,231); font-family: fh, sans-serif; width: 1.904em; font-size: 1.4em; line-height: 1.904em;}
+@media (min-width: 600px) {#q1c .x, #q2c .x, #q3c .x, #q4c .x {top: 0.25em; line-height: 1em; font-size: 4em; width: auto;}}
+#q1c .x .t, #q2c .x .t, #q3c .x .t, #q4c .x .t {display: none;}
+@media (min-width: 600px) {#q1c .x .t, #q2c .x .t, #q3c .x .t, #q4c .x .t {display: inline-block; font-size: 0.25em;}}
 #q1c .h .x:hover, #q2c .h .x:hover, #q3c .h .x:hover, #q4c .h .x:hover {background: rgb(240,240,240);}
-#q1c .c, #q2c .c, #q3c .c, #q4c .c {position: fixed; left: 2.5%; top: 11.25%; bottom: 1.25%; width: 90%; _height: 90%; overflow-y: auto; background: rgb(252,252,252); padding: 2.5%;}
-@media (min-width: 600px) {#q1c .c, #q2c .c, #q3c .c, #q4c .c {top: 15%; bottom: 5%;}}
+#q1c .c, #q2c .c, #q3c .c, #q4c .c {position: absolute; left: 2.5%; top: 3.4667em; bottom: 0.9em; width: 90%; _height: 90%; overflow-y: auto; background: rgb(252,252,252); padding: 2.5%;}
+@media (min-width: 600px) {#q1c .c, #q2c .c, #q3c .c, #q4c .c {top: 5em; bottom: 1em;}}
 table {border-collapse: collapse; border-spacing: 0; margin: auto;}
 td {padding: 0.25em 0; border-bottom: 1px solid rgb(231,231,231); text-align: left; vertical-align: top;}
 td.th {border-bottom: 1px solid rgb(200,200,200);}

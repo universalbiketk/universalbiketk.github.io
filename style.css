@@ -1,11 +1,10 @@
 /* KOMETA GQ (kometa.gq) 29.11.2017 (14.05.2019) */
-@font-face {font-family: f; src: url(f.eot?) format(eot), url(f.woff) format('woff'), url(f.ttf) format(truetype), url(f.svg) format(svg);}
-@font-face {font-family: fh; src: url(fh.eot?) format(eot), url(fh.woff) format(woff), url(fh.ttf) format(truetype), url(fh.svg) format(svg);}
-@font-face {font-family: fi; src: url(fi.eot?) format(eot), url(fi.woff) format(woff), url(fi.ttf) format(truetype), url(fi.svg) format(svg);}
-@font-face {font-family: fl; src: url(fl.eot?) format(eot), url(fl.woff) format(woff), url(fl.ttf) format(truetype), url(fl.svg) format(svg);}
-@font-face {font-family: flm; src: url(flm.eot?) format(eot), url(flm.woff) format(woff), url(flm.ttf) format(truetype), url(flm.svg) format(svg);}
+@font-face {font-family: 'f'; src: url('f.eot?') format('eot'), url('f.woff') format('woff'), url('f.ttf') format('truetype'), url('f.svg') format('svg');}
+@font-face {font-family: 'fh'; src: url('fh.eot?') format('eot'), url('fh.woff') format('woff'), url('fh.ttf') format('truetype'), url('fh.svg') format('svg');}
+@font-face {font-family: 'fl'; src: url('fl.eot?') format('eot'), url('fl.woff') format('woff'), url('fl.ttf') format('truetype'), url('fl.svg') format('svg');}
+@font-face {font-family: 'flm'; src: url('flm.eot?') format('eot'), url('flm.woff') format('woff'), url('flm.ttf') format('truetype'), url('flm.svg') format('svg');}
 html {height: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
-body {margin: 0; height: 100%; background: rgb(252,252,252) url(about:blank); font: normal normal normal 15px f, sans-serif; color: rgb(0,0,0);text-align: center;}
+body {margin: 0; height: 100%; background: rgb(252,252,252) url(about:blank); font: normal normal normal 15px f, sans-serif; color: rgb(0,0,0); text-align: center;}
 @media (min-width: 600px) {body {font-size: 18px;}}
 button, form, input, select, textarea {margin: 0; font-size: 100%; text-transform: none;}
 a {color: rgb(0,0,252); text-decoration: none; background-color: transparent; -webkit-text-decoration-skip: objects;}
@@ -64,7 +63,7 @@ button {margin: 0.25em 0 0.5em 0; padding: 1em 0; width: 100%; border: 1px solid
 @media (min-width: 600px) {#q1c .x, #q2c .x, #q3c .x, #q4c .x {top: 1em;}}
 #q1c .x .t, #q2c .x .t, #q3c .x .t, #q4c .x .t {display: none;}
 @media (min-width: 600px) {#q1c .x .t, #q2c .x .t, #q3c .x .t, #q4c .x .t {display: inline-block; padding-left: 1em; line-height: 4em;}}
-#q1c .x .i, #q2c .x .i, #q3c .x .i, #q4c .x .i {font-size: 1.4em; width: 2em;  line-height: 2em;}
+#q1c .x .i, #q2c .x .i, #q3c .x .i, #q4c .x .i {font-size: 1.4em; width: 2em; line-height: 2em;}
 @media (min-width: 600px) {#q1c .x .i, #q2c .x .i, #q3c .x .i, #q4c .x .i {display: inline-block; font-size: 4em; line-height: 1em; width: 1em;}}
 #q1c .h .x:hover, #q2c .h .x:hover, #q3c .h .x:hover, #q4c .h .x:hover {background: rgb(240,240,240);}
 #q1c .c, #q2c .c, #q3c .c, #q4c .c {position: absolute; left: 2.5%; top: 3.55em; bottom: 0.75em; width: 90%; _height: 90%; overflow-y: auto; background: rgb(252,252,252); padding: 2.5%;}

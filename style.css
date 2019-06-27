@@ -1,20 +1,18 @@
-/* KOMETA GQ (kometa.gq) 29.11.2017 (14.05.2019) */
+/* KOMETA GQ (kometa.gq) 29.11.2017 (20.06.2019) */
 @font-face {font-family: 'f'; src: url('f.eot?') format('eot'), url('f.woff') format('woff'), url('f.ttf') format('truetype'), url('f.svg') format('svg');}
 @font-face {font-family: 'fh'; src: url('fh.eot?') format('eot'), url('fh.woff') format('woff'), url('fh.ttf') format('truetype'), url('fh.svg') format('svg');}
 @font-face {font-family: 'fl'; src: url('fl.eot?') format('eot'), url('fl.woff') format('woff'), url('fl.ttf') format('truetype'), url('fl.svg') format('svg');}
 @font-face {font-family: 'flm'; src: url('flm.eot?') format('eot'), url('flm.woff') format('woff'), url('flm.ttf') format('truetype'), url('flm.svg') format('svg');}
 html {height: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
 body {margin: 0; height: 100%; background: rgb(252,252,252) url(about:blank); font: normal normal normal 15px f, sans-serif; color: rgb(0,0,0); text-align: center;}
-@media (min-width: 600px) {body {font-size: 18px;}}
+@media (min-width: 640px) and (orientation: landscape) and (min-resolution: 95dpi) {body {font-size: 18px;}}
 button, form, input, select, textarea {margin: 0; font-size: 100%; text-transform: none;}
 a {color: rgb(0,0,252); text-decoration: none; background-color: transparent; -webkit-text-decoration-skip: objects;}
 a:hover {text-decoration: underline;}
 span {display: inline-block; vertical-align: top; text-align: center;}
 strong {font-weight: bolder;}
-#h {width: 100%; height: 100%; background: rgb(131,131,131) url(h.jpg) no-repeat center top; background-size: auto 100%; font-family: fh, sans-serif; position: relative;}
-@media (min-width: 600px) {#h {background-size: 100% auto;}}
-@media (orientation: portrait) {#h {background-size: auto 100%;}}
-@media (min-width: 1400px) {#h {background-image: url(h+.jpg);}}
+#h {width: 100%; height: 100%; background: rgb(131,131,131) url(h.jpg) no-repeat top/cover; _background: rgb(131,131,131) url(h.jpg) no-repeat top; font-family: fh, sans-serif; position: relative;}
+@media (min-width: 1367px) {#h {background-image: url(h+.jpg);}}
 #h .l {position: absolute; left: 5%; top: 9%; width: 90%;}
 @media (min-width: 600px) {#h .l {text-align: left;}}
 #h .l a {display: inline-block; vertical-align: top; text-align: center;}
@@ -35,7 +33,7 @@ strong {font-weight: bolder;}
 #q4 {background: rgb(200,252,200) url(q4.png) no-repeat center; background-size: auto 90%;}
 #q1 .vm, #q2 .vm, #q3 .vm, #q4 .vm {padding-top: 100%; vertical-align: middle;}
 #q1 .h, #q2 .h, #q3 .h {vertical-align: middle; font-size: 2.5em; letter-spacing: 1px;}
-@media (min-width: 600px) {#q1 .h, #q2 .h, #q3 .h {font-size: 3em; letter-spacing: 2px;}}
+/*@media (min-width: 600px) {#q1 .h, #q2 .h, #q3 .h {font-size: 3em; letter-spacing: 2px;}}*/
 #q1 .h .b, #q2 .h .b, #q3 .h .b {margin-top: 1em; padding: 1em 2em; font-size: 0.375em; letter-spacing: 1px; background: rgb(252,131,0); color: rgb(252,252,252); border-radius: 3px;}
 #q1 .h .b:hover, #q2 .h .b:hover, #q3 .h .b:hover {background: rgb(252,148,0);}
 #q4 .f {vertical-align: middle;}
@@ -46,13 +44,12 @@ input {padding: 0.2em 0.4em; margin-bottom: 0.5em;}
 button {margin: 0.25em 0 0.5em 0; padding: 1em 0; width: 100%; border: 1px solid rgb(0,200,131); background: rgb(0,200,131); color: rgb(252,252,252); border-radius: 3px; cursor: pointer;}
 #pr {width: 90%; padding: 9% 5%; background: rgb(240,240,240); text-align: left;}
 #g {width: 90%; padding: 9% 5%; background: rgb(240,252,240);}
-#ym {width: 100%; height: 56.25%; background: rgb(240,252,240); _display: none;}
-@media (min-width: 600px) {#ym {height: 100%;}}
+#ym {width: 100%; height: 56.25%; background: rgb(240,252,240);}
 #w {width: 90%; padding: 3.5em 5%; background: gainsboro}
 #w .m {margin-top: 2em;}
 #w .m, #w .m .d, #w .m a {line-height: 46px; vertical-align: baseline; color: rgb(131,131,131); padding: 2px 0; white-space: nowrap;}
 #w .m .d {padding-right: 0.07142857em;}
-#w .m a {display: inline-block; font: 1.07142857em flm, sans-serif; color: rgb(0,131,252);}
+#w .m a {display: inline-block; font: 1.0233463035019455252918287937743em flm, sans-serif; color: rgb(0,131,252);}
 #w .m a:hover {text-decoration: none; padding-bottom: 0; border-bottom: 2px solid rgb(0,131,252);}
 #q1c, #q2c, #q3c, #q4c {position: fixed; _position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(131,131,131,0.67);}
 #q1c .h, #q2c .h, #q3c .h, #q4c .h {position: absolute; left: 2.5%; top: 0.75em; width: 75%; padding: 0 10%; background: rgb(252,245,231);}
